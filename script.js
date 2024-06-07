@@ -4,11 +4,13 @@ const Keyboard = {
         keysContainer: null,
         keys: []
     },
-
+    
+    
     eventHandlers: {
         oninput: null,
         onclose: null
     },
+
 
     properties: {
         value: "",
